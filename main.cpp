@@ -7,13 +7,15 @@ void playAudio() {
 }
 
 void executeCMIImg() {
+    std::cout << "\033[38;2;0;255;255m";
     std::cout << "Executing CMI IMG ISO Creator v2.04..." << std::endl;
     system("cmiimg");
 }
 
 void executeBTRFSSystemCloner() {
-    std::cout << "Executing BTRFS System Cloner v2.0..." << std::endl;
-    system("echo btrfssystemcloner being added");
+    std::cout << "\033[38;2;0;255;255m";
+    std::cout << "Executing BTRFS System Cloner v1.02..." << std::endl;
+    system("btrfssystemcloner");
 }
 
 void displayHeader() {
