@@ -1,5 +1,5 @@
 # Project name
-TARGET = claudemodscloningcodex
+TARGET = ccd
 
 # Required Qt modules
 QT += core
